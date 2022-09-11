@@ -1,3 +1,9 @@
 .App {
     background-color: pink;
 }
+
+.imageCart {
+    width: 10vh;
+    margin: 1%;
+    border-radius: 100%;
+}

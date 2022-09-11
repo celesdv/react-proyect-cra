@@ -1,16 +1,33 @@
-import { Container, Navbar } from "react-bootstrap";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
-    return (
-        <div className="navbarContainer">
-            <Navbar>
-                <Container>
-                    <Navbar.Brand href="#home">React</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                </Container>
-            </Navbar>
-        </div>
-    )
-}
+  return (
+    <Navbar bg="dark" variant="dark">
+      <img
+        className="imageCart"
+        alt="header"
+        src="https://cartelurbano.com/sites/default/files/cuadradaotalora.jpg"
+      />
+      <Nav>
+        <Navbar.Brand href="#home">
+            Skill Factory
+        </Navbar.Brand>
+        <Nav.Item>
+          <Nav.Link href="/home">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1">Users</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-2">Characters</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-3">Contact Us</Nav.Link>
+        </Nav.Item>
+      </Nav>
+    </Navbar>
+  );
+};
 
 export default NavBar;
