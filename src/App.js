@@ -1,10 +1,13 @@
-import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import Section from "./components/Section";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>Mi app</h1>
-      <NavBar />
+    <div className="App">
+      <Header />
+      <Section />
+      <Footer />
     </div>
   );
 }
