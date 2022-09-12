@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
 
-const Cards = ({img, title, detail, id, link}) => {
+const Cards = ({img, title, detail, link}) => {
     return (
         <Card className='card text-center m-5 border-dark' style={{ width: '18rem', height: '22rem' }}>
           <Card.Img variant="top" src={img} className='card-img-top' style={{ height: '50%' }} />

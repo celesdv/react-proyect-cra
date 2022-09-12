@@ -1,34 +1,34 @@
 import Cards from "./Cards";
 
 const Section = () => {
-  const cardDetail = [
+
+  const data = [
     {
       title: "Users",
       detail: "see the users",
       img: "https://www.xtrafondos.com/wallpapers/rick-and-morty-en-nave-4518.jpg",
-      link: "/users"
+      link: "/users",
     },
     {
       title: "Characters",
       detail: "see the characters",
       img: "https://images6.alphacoders.com/909/909641.png",
-      link: "/characters"
+      link: "/characters",
     },
     {
       title: "Contact Us",
       detail: "contact us",
       img: "https://cdn.bhdw.net/im/rick-y-morty-dimension-de-dios-papel-pintado-57412_w635.webp",
-      link: "/contactUs"
+      link: "/contactUs",
     },
   ];
 
   return (
     <div className="d-flex justify-content-center bg-img .bg-display">
-      {cardDetail.map((card, index) => {
+      {data.map((card, index) => {
         return (
-          <div>
-            <Cards
-              key={card.id}
+          <div key={index}>
+            <Cards              
               img={card.img}
               title={card.title}
               detail={card.detail}
