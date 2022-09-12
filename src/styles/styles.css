@@ -31,3 +31,9 @@
     width: 18rem;
     height: 22rem;
 }
+
+.cardStyle{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
