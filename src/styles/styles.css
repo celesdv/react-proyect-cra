@@ -1,9 +1,33 @@
-.App {
-    background-color: pink;
+.imageHeader {
+    width: 8vh;
+    height: 8vh;
+    margin: 2vh 5vh;
+    border-radius: 100%;
 }
 
-.imageCart {
-    width: 10vh;
-    margin: 1%;
-    border-radius: 100%;
+.listNav {
+    margin: 1vh;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    color: whitesmoke;
+}
+
+.bg-img {
+    background-image: url("https://ae01.alicdn.com/kf/HTB1ittBfuuSBuNjy1Xcq6AYjFXag/Poster-impreso-en-alta-definici-n-SHROOM-mundo-RICK-y-MORTY-lienzo-de-un-conjunto.jpg_Q90.jpg_.webp");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.bg-display {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards {
+    width: 18rem;
+    height: 22rem;
 }
