@@ -1,3 +1,52 @@
+# Checkpoint n°2 SKillFactory
+
+## Task:
+
+Migrate a web page made in HTML, CSS y JavaScript to React :boom:
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-blue?style=flat&logo=javascript&logoColor=white) to ![React](https://img.shields.io/badge/-React-blue?style=flat&logo=react&logoColor=white)
+
+## How to use this repository?
+
+This project requires ![Node.js](https://img.shields.io/badge/-Node.js-blue?style=flat&logo=node&logoColor=white)
+
+### Steps to follow
+
+:heavy_plus_sign: Clone repository
+
+```sh
+git clone https://github.com/celesdv/react-proyect-cra.git
+```
+
+:heavy_plus_sign: Install dependencies
+
+```sh
+npm install
+```
+
+:heavy_plus_sign: Start proyect
+
+```sh
+npm start
+```
+
+## Details
+
+For this project the following libraries were used:
+-React Bootstrap
+-React Hook Form
+
+The project is routed with React Router Dom v6
+
+
+the project consumes the following API's:
+- Rick and Morty API (https://rickandmortyapi.com/api/character/)
+- JSONPlaceholder API (https://jsonplaceholder.typicode.com/users)
+
+
+### By Celeste D'Angelo
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
